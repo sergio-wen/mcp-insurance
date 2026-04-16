@@ -5,21 +5,21 @@ license: MIT
 metadata:
   author: Glory
   version: "1.0.0"
-  homepage: "https://github.com/gloryfham/mcp-insurance"
+  homepage: "https://github.com/sergio-wen/mcp-insurance"
   agent:
     requires:
-      bins: ["glory-mcp-insurance"]
+      bins: ["gloryfham-mcp-insurance"]
     install:
       - id: npm
         kind: node
-        package: "@glory/mcp-insurance"
-        bins: ["glory-mcp-insurance"]
+        package: "gloryfham-mcp-insurance"
+        bins: ["gloryfham-mcp-insurance"]
         label: "Install Glory Insurance MCP Server"
 ---
 
 # Glory Insurance Catalog — 保险产品查询
 
-通过 MCP Server `glory-mcp-insurance` 查询公司保险产品库数据。
+通过 MCP Server `gloryfham-mcp-insurance` 查询公司保险产品库数据。
 
 ---
 
